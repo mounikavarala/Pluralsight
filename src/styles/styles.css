@@ -1,0 +1,28 @@
+/* Styles */
+
+#app {
+  font : 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color : #4d4d4d;
+  min-width:550px;
+  max-width: 850px;
+  margin:0 auto;
+}
+
+a.active {
+  color : orange;
+}
+
+nav {
+  padding-top : 20px;
+}
+
+nav a {
+  border-right: 1px solid #4d4d4d;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+nav a:last-child {
+  border-right: none;
+}
+
