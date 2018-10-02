@@ -27,6 +27,7 @@ const generateId = (author) => {
 };
 
 class AuthorApi {
+
   static getAllAuthors() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
